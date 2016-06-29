@@ -1,0 +1,48 @@
+[quote, Me, just now]
+Dear lord, what have I done?
+
+= Kojratspack
+
+Kotlin + Gradle + JavaScript + Kotlin + JavaScript + Ratpack.
+
+== So, how?
+
+Just fuckin' run it.
+
+[source,text]
+====
+.Run that shit
+----
+$ ./gradlew run
+Constructor DefaultSourceDirectorySet(String, FileResolver) has been deprecated and is scheduled to be removed in Gradle 3.0
+:compileKotlin UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: No slf4j logging binding found for Ratpack, there will be no logging output.
+WARNING: Please add an slf4j binding, such as slf4j-log4j2, to the classpath.
+WARNING: More info may be found here: http://ratpack.io/manual/current/logging.html
+Ratpack started for http://localhost:5050
+> Building 80% > :run
+
+$
+----
+====
+
+Open your browser to `https://localhost:5050` and see the _Hello World!_ demonstration.
+
+== How?
+
+https://docs.gradle.org/3.0-milestone-2/release-notes[Gradle 3.0-milestone-2], https://kotlin.io[Kotlin], https://github.com/danveloper/gradle-js[gradle-js], http://openjdk.java.net/projects/nashorn/[Nashorn].
+
+== But, why?
+
+Because I fuckin' can, that's why.
+
+== Authors
+
+https://twitter.com/danveloper[Dan Woods]
